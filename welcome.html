@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome Message</title>
+</head>
+<body>
+  <script>
+    function displayWelcomeMessage() {
+      const gender = prompt("Please enter your gender (Male/Female):").toLowerCase();
+      if (gender === "male") {
+        alert("Good afternoon, Sir!");
+      } else if (gender === "female") {
+        alert("Good afternoon, Madam!");
+      } else {
+        alert("Invalid gender input.");
+      }
+    }
+  </script>
+  <button onclick="displayWelcomeMessage()">Click here to enter your gender</button>
+</body>
+</html>
